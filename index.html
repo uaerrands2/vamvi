@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAMVI – Entertainment Agency | Nairobi</title>
+  <meta name="description" content="VAMVI is a creative partner for SMEs and startups in Kenya, crafting unforgettable events, brand activations, and marketing campaigns with Afro‑futuristic flair.">
+  <meta name="keywords" content="event agency Kenya, brand activation Nairobi, SME marketing, entertainment, Afro‑futuristic, sustainable events">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- GLOBAL HEADER -->
+  <header class="site-header" id="navbar">
+    <div class="header-container">
+      <a href="#" class="logo" aria-label="VAMVI home">
+        <img src="assets/images/logo.png" alt="VAMVI Entertainment Agency logo" width="140" height="48">
+      </a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="cta-button nav-cta">Let's Talk</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU (off‑canvas) -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="close-menu" id="closeMenuBtn" aria-label="Close menu">✕</button>
+    <nav aria-label="Mobile navigation">
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#process">Process</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- HERO SECTION (enhanced with parallax effect) -->
+    <section id="hero" class="hero-section" style="background: linear-gradient(135deg, rgba(155,109,255,0.08) 0%, rgba(255,111,216,0.05) 100%), url('assets/images/portfolio images/billboards.png') center/cover; background-attachment: fixed;">
+      <div class="hero-overlay"></div>
+      <div class="hero-blob blob1"></div>
+      <div class="hero-blob blob2"></div>
+      <div class="hero-blob blob3"></div>
+      <div class="container hero-content" style="position: relative; z-index: 2;">
+        <span class="hero-tag reveal">✦ Events · Marketing · Entertainment</span>
+        <h1 class="hero-title reveal">Where Brands Come <span id="cyclingWord">Alive</span></h1>
+        <p class="hero-sub reveal">VAMVI is the creative partner for SMEs & startups — turning ideas into unforgettable experiences that grow your brand, rooted in Kenyan creativity.</p>
+        <div class="hero-btns reveal">
+          <a href="#services" class="btn-primary">Explore Services</a>
+          <a href="#portfolio" class="btn-ghost">View Our Work</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat"><span class="stat-num">120+</span><span class="stat-label">Events Produced</span></div>
+          <div class="stat"><span class="stat-num">80+</span><span class="stat-label">Happy Clients</span></div>
+          <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Years Experience</span></div>
+          <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Satisfaction Rate</span></div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">Scroll</div>
+    </section>
+
+    <!-- MARQUEE (unchanged) -->
+    <div class="marquee-wrap">
+      <div class="marquee-track" aria-hidden="true">
+        <span>Event Planning</span><span class="dot">✦</span>
+        <span>Brand Activations</span><span class="dot">✦</span>
+        <span>Live Entertainment</span><span class="dot">✦</span>
+        <span>Digital Marketing</span><span class="dot">✦</span>
+        <span>Corporate Events</span><span class="dot">✦</span>
+        <span>Product Launches</span><span class="dot">✦</span>
+        <span>SME Growth</span><span class="dot">✦</span>
+        <span>Creative Strategy</span><span class="dot">✦</span>
+        <!-- duplicate for seamless loop (kept from original) -->
+        <span>Event Planning</span><span class="dot">✦</span>
+        <span>Brand Activations</span><span class="dot">✦</span>
+        <span>Live Entertainment</span><span class="dot">✦</span>
+        <span>Digital Marketing</span><span class="dot">✦</span>
+        <span>Corporate Events</span><span class="dot">✦</span>
+        <span>Product Launches</span><span class="dot">✦</span>
+        <span>SME Growth</span><span class="dot">✦</span>
+        <span>Creative Strategy</span><span class="dot">✦</span>
+      </div>
+    </div>
+
+    <!-- INTERACTIVE STORYTELLING – HORIZONTAL SCROLL (Kenyan motifs) -->
+    <section id="story" class="story-section">
+      <div class="container">
+        <span class="section-label reveal">Our Journey</span>
+        <h2 class="section-title reveal">Stories from the Rift</h2>
+        <p class="section-sub reveal">Swipe through client adventures, inspired by the landscapes of Kenya.</p>
+      </div>
+      <div class="story-track-wrapper reveal">
+        <div class="story-track">
+          <article class="story-card" style="background-image: url('assets/images/portfolio images/AgybmOpzTTWPDPyBhjICsw.webp');">
+            <div class="story-image-overlay"></div>
+            <div class="story-content">
+              <h3>Nakuru Launch</h3>
+              <p>"They brought the savannah to our product reveal – 200+ leads in one night." – <strong>Amani, EcoPack</strong></p>
+            </div>
+          </article>
+          <article class="story-card" style="background-image: url('assets/images/portfolio images/start up launch 2.jpeg');">
+            <div class="story-image-overlay"></div>
+            <div class="story-content">
+              <h3>Menengai Crater Activation</h3>
+              <p>"A brand activation that echoed across the valley. Unforgettable." – <strong>James, BoldBrew</strong></p>
+            </div>
+          </article>
+          <article class="story-card" style="background-image: url('assets/images/portfolio images/Screenshot 2026-03-03 230708.png');">
+            <div class="story-image-overlay"></div>
+            <div class="story-content">
+              <h3>Savannah Summit</h3>
+              <p>"VAMVI wove our brand story into the wild – literally." – <strong>Wanjiku, SafariTech</strong></p>
+            </div>
+          </article>
+          <article class="story-card" style="background-image: url('assets/images/portfolio images/start up launch.webp');">
+            <div class="story-image-overlay"></div>
+            <div class="story-content">
+              <h3>Green Gala</h3>
+              <p>"A zero‑waste event that still wowed everyone. True sustainability." – <strong>Kip, GreenStart</strong></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES (unchanged content, but kept as original) -->
+    <section id="services">
+      <div class="container text-center reveal">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">Services Built for Growing Brands</h2>
+        <p class="section-sub">Tailored solutions for SMEs and startups who want professional-grade results without enterprise price tags.</p>
+      </div>
+      <div class="services-grid container">
+        <div class="service-card reveal"> <div class="service-icon"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg></div> <h3>Event Planning & Management</h3> <p>End-to-end event production — from intimate brand activations to large corporate gatherings. We handle logistics so you focus on business.</p> <span class="service-tag">Our Specialty</span> </div>
+        <div class="service-card reveal"> <div class="service-icon"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div> <h3>Brand Activations</h3> <p>Experiential campaigns that make your brand tangible. Pop-ups, product launches, and immersive activations your audience won't forget.</p> <span class="service-tag">High Impact</span> </div>
+        <div class="service-card reveal"> <div class="service-icon"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 7l-7 5 7 5V7z"></path><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg></div> <h3>Entertainment Booking</h3> <p>Curated talent sourcing — DJs, MCs, performers, and artists. We connect the right energy to your event's vibe and audience.</p> <span class="service-tag">Full Roster</span> </div>
+        <div class="service-card reveal"> <div class="service-icon"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></div> <h3>Digital Marketing</h3> <p>Social media strategy, content creation, and paid campaigns designed for SMEs. Data-driven results with creativity at the core.</p> <span class="service-tag">SME Focused</span> </div>
+        <div class="service-card reveal"> <div class="service-icon"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg></div> <h3>Content Production</h3> <p>Photo, video, and graphic content that tells your brand story. From event coverage to campaign shoots — all in-house.</p> <span class="service-tag">In-House Team</span> </div>
+        <div class="service-card reveal"> <div class="service-icon"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="1"></circle><path d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24m2.12 2.12l4.24 4.24M1 12h6m6 0h6m-1.78 7.78l-4.24-4.24m-2.12-2.12l-4.24-4.24"></path></svg></div> <h3>Creative Strategy</h3> <p>Brand positioning, campaign ideation, and marketing roadmaps. Strategic thinking that aligns your vision with real market opportunities.</p> <span class="service-tag">Growth Ready</span> </div>
+      </div>
+    </section>
+
+    <!-- WHY VAMVI (original + local flavor badge) -->
+    <section id="why">
+      <div class="why-grid container">
+        <div class="why-visual reveal">
+          <div class="why-visual-inner">
+            <div class="why-circle wc1"></div>
+            <div class="why-circle wc2"></div>
+            <div class="why-circle wc3"></div>
+            <div class="wc-center">VAMVI<br>EFFECT</div>
+          </div>
+        </div>
+        <div>
+          <span class="section-label reveal">Why Choose Us</span>
+          <h2 class="section-title reveal">The Startup‑Friendly Creative Agency</h2>
+          <p class="section-sub reveal">We understand the hustle. VAMVI was built to serve growing brands that deserve world‑class execution on realistic budgets.</p>
+          <div class="why-points" style="margin-top:2rem">
+            <div class="why-point reveal"> <div class="why-num">01</div> <div><h4>SME & Startup Focused</h4><p>Packages and pricing designed around the reality of growing businesses — not corporate budgets.</p></div> </div>
+            <div class="why-point reveal"> <div class="why-num">02</div> <div><h4>End-to-End Execution</h4><p>One team. Strategy, creative, production, and delivery — seamlessly under one roof.</p></div> </div>
+            <div class="why-point reveal"> <div class="why-num">03</div> <div><h4>Results That Matter</h4><p>Every event and campaign is measured against business outcomes — awareness, leads, revenue.</p></div> </div>
+            <div class="why-point reveal"> <div class="why-num">04</div> <div><h4>Local Insight, Global Standards</h4><p>Deep market knowledge combined with world‑class creative standards and production quality.</p></div> </div>
+          </div>
+          <!-- Sustainability badge added -->
+          <div class="sustainability-badge reveal">
+            <span class="leaf">🌱</span> <strong>Green Impact:</strong> Every event we measure & offset carbon — Proudly eco‑conscious.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAMIFIED PORTFOLIO + QUIZ -->
+    <section id="portfolio">
+      <div class="container text-center reveal">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">Selected Projects</h2>
+        <p class="section-sub">Hover to unlock case studies, or take our <button class="quiz-trigger" id="quizTriggerBtn">📋 marketing challenge quiz</button> to see what fits you.</p>
+      </div>
+      <div class="portfolio-tabs reveal">
+        <button class="tab-btn active" data-filter="all">All</button>
+        <button class="tab-btn" data-filter="events">Events</button>
+        <button class="tab-btn" data-filter="marketing">Marketing</button>
+        <button class="tab-btn" data-filter="entertainment">Entertainment</button>
+      </div>
+      <div class="portfolio-grid container" id="portfolioGrid">
+        <!-- cards with data-cat as before (we keep original content) -->
+        <div class="portfolio-card reveal" data-cat="events" style="background-image: url('assets/images/portfolio images/Best-Startup-Marketing-Agencies-1-1024x576.jpg');">  <div class="portfolio-overlay"><h4>Annual Tech Summit</h4><span>Corporate Event</span></div> <div class="portfolio-meta"><h4>Annual Tech Summit</h4><span>Events</span></div> </div>
+        <div class="portfolio-card reveal" data-cat="marketing" style="background-image: url('assets/images/portfolio images/startup-event-instagram-post-template-edit-online.jpg');"> <div class="portfolio-overlay"><h4>Startup Brand Launch</h4><span>Brand Activation</span></div> <div class="portfolio-meta"><h4>Startup Brand Launch</h4><span>Marketing</span></div> </div>
+        <div class="portfolio-card reveal" data-cat="entertainment" style="background-image: url('assets/images/portfolio images/29rooms-brand-activation-ideas.webp');"> <div class="portfolio-overlay"><h4>Rooftop Music Night</h4><span>Entertainment</span></div> <div class="portfolio-meta"><h4>Rooftop Music Night</h4><span>Entertainment</span></div> </div>
+        <div class="portfolio-card reveal" data-cat="events" style="background-image: url('assets/images/portfolio images/rooftop.webp');"> <div class="portfolio-overlay"><h4>SME Networking Gala</h4><span>Networking Event</span></div> <div class="portfolio-meta"><h4>SME Networking Gala</h4><span>Events</span></div> </div>
+        <div class="portfolio-card reveal" data-cat="marketing" style="background-image: url('assets/images/portfolio images/social media.jpg');"> <div class="portfolio-overlay"><h4>Social Media Campaign</h4><span>Digital Marketing</span></div> <div class="portfolio-meta"><h4>Social Media Campaign</h4><span>Marketing</span></div> </div>
+        <div class="portfolio-card reveal" data-cat="entertainment" style="background-image: url('assets/images/portfolio images/product launch.jpg');"> <div class="portfolio-overlay"><h4>Product Launch Party</h4><span>Entertainment + Event</span></div> <div class="portfolio-meta"><h4>Product Launch Party</h4><span>Entertainment</span></div> </div>
+      </div>
+
+      <!-- AR QR mock -->
+      <div class="ar-mock container reveal">
+        <p>✨ Scan to see our AR activation filter: <button id="qrMockBtn" class="qr-button">📱 Show QR code</button></p>
+        <div id="qrPlaceholder" class="qr-placeholder hidden"></div>
+      </div>
+    </section>
+
+    <!-- PROCESS (unchanged) -->
+    <section id="process">
+      <div class="container text-center reveal">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Simple. Seamless. Stellar.</h2>
+        <p class="section-sub">From first call to final delivery — here's exactly how we work with you.</p>
+      </div>
+      <div class="process-steps container">
+        <div class="step reveal"> <div class="step-num">1</div> <h4>Discovery Call</h4> <p>We learn about your brand, goals, budget, and vision. No jargon — just honest, focused conversation.</p> </div>
+        <div class="step reveal"> <div class="step-num">2</div> <h4>Creative Brief</h4> <p>We craft a tailored proposal with concept, timeline, and pricing. Transparent and detailed.</p> </div>
+        <div class="step reveal"> <div class="step-num">3</div> <h4>Production</h4> <p>Our team executes with precision — handling every detail from vendors to content to logistics.</p> </div>
+        <div class="step reveal"> <div class="step-num">4</div> <h4>Delivery & Debrief</h4> <p>We deliver, measure results, and give you a full post-event report to inform future decisions.</p> </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS + INTERACTIVE KENYA MAP -->
+    <section id="testimonials">
+      <div class="container text-center reveal">
+        <span class="section-label">Client Love</span>
+        <h2 class="section-title">What Our Clients Say</h2>
+      </div>
+      <div class="testi-grid container">
+        <div class="reel-section container reveal" style="text-align: center; margin: 6rem 0; background: rgba(155,109,255,0.08); padding: 4rem; border-radius: 20px; border: 1px solid rgba(155,109,255,0.2);">
+          <h3 style="font-size: 2rem; margin-bottom: 1rem; font-family: var(--font-syne);">Creative Reels & Case Studies</h3>
+          <p style="color: var(--muted); margin-bottom: 3rem; font-size: 1rem;">Watch how we bring brands to life through dynamic video storytelling.</p>
+          <div class="reel-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+            <div class="reel-card" style="position: relative; height: 300px; border-radius: 12px; overflow: hidden; background: rgba(10,10,15,0.6); border: 1px solid rgba(155,109,255,0.2);">
+              <video style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" poster="assets/images/portfolio images/Team-Volunteers-and-a-few-speakers-1024x683.jpg" controls>
+                <source src="https://commondatastorage.googleapis.com/gtv-videos-library/sample/fortnite.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="reel-meta" style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.95), transparent); padding: 1.5rem; color: #fff;">
+                <h4 style="margin-bottom: 0.25rem; font-size: 0.95rem;">Tech Summit Recap</h4>
+                <p style="font-size: 0.8rem; color: var(--purple-soft);">60-sec Highlights</p>
+              </div>
+            </div>
+            <div class="reel-card" style="position: relative; height: 300px; border-radius: 12px; overflow: hidden; background: rgba(10,10,15,0.6); border: 1px solid rgba(155,109,255,0.2);">
+              <video style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" poster="assets/images/portfolio images/dark-purple-neon-party-flyer-design-template-278167555715c9c004aef7a71f59a96a_screen.jpg" controls>
+                <source src="https://commondatastorage.googleapis.com/gtv-videos-library/sample/elephant-dream.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="reel-meta" style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.95), transparent); padding: 1.5rem; color: #fff;">
+                <h4 style="margin-bottom: 0.25rem; font-size: 0.95rem;">Brand Activation Tour</h4>
+                <p style="font-size: 0.8rem; color: var(--purple-soft);">90-sec Behind The Scenes</p>
+              </div>
+            </div>
+            <div class="reel-card" style="position: relative; height: 300px; border-radius: 12px; overflow: hidden; background: rgba(10,10,15,0.6); border: 1px solid rgba(155,109,255,0.2);">
+              <video style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" poster="assets/images/portfolio images/brand-activation-convention-large-scale-683x1024.jpg" controls>
+                <source src="https://commondatastorage.googleapis.com/gtv-videos-library/sample/big-buck-bunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="reel-meta" style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.95), transparent); padding: 1.5rem; color: #fff;">
+                <h4 style="margin-bottom: 0.25rem; font-size: 0.95rem;">Client Testimonials</h4>
+                <p style="font-size: 0.8rem; color: var(--purple-soft);">45-sec Compilation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-grid container" style="margin-top: 4rem;">
+        <div class="testi-card reveal"> <div class="stars">★★★★★</div> <p class="testi-text">"VAMVI turned our product launch into a full-blown experience. The energy, the execution, the crowd — everything was on point. Our brand awareness doubled that week."</p> <div class="testi-author"><div class="testi-avatar av1" style="background-image: url('assets/images/portfolio images/20251002_141342020_iOS-scaled.jpg'); background-size: cover; background-position: center; color: transparent;"><span style="display: none;">AK</span></div><div><div class="testi-name">Amara K.</div><div class="testi-role">CEO, Founder – TechStart Africa</div></div></div> </div>
+        <div class="testi-card reveal"> <div class="stars">★★★★★</div> <p class="testi-text">"As a small business, we were nervous about agency pricing. VAMVI gave us a premium event at a startup budget. They genuinely care about your growth."</p> <div class="testi-author"><div class="testi-avatar av2" style="background-image: url('assets/images/portfolio images/20251002_150924000_iOS-scaled.jpg'); background-size: cover; background-position: center; color: transparent;"><span style="display: none;">JM</span></div><div><div class="testi-name">James M.</div><div class="testi-role">Marketing Manager – BoldBrew Co.</div></div></div> </div>
+        <div class="testi-card reveal"> <div class="stars">★★★★★</div> <p class="testi-text">"The entertainment curation was absolutely impeccable. Our guests are still talking about the rooftop night months later. VAMVI knows how to create moments."</p> <div class="testi-author"><div class="testi-avatar av3" style="background-image: url('assets/images/portfolio images/592f2153535748f3225616d764efa231.jpg'); background-size: cover; background-position: center; color: transparent;"><span style="display: none;">SN</span></div><div><div class="testi-name">Sonia N.</div><div class="testi-role">Events Director – Pulse Media</div></div></div> </div>
+      </div>
+
+      <!-- Kenya map with pins (simulated) -->
+      <div class="kenya-map container reveal">
+        <h3>Our footprint across Kenya</h3>
+        <div class="map-grid">
+          <div class="map-pin" data-region="nairobi">Nairobi <span class="tooltip">"VAMVI made our brand shine!" – Aisha, Eng</span></div>
+          <div class="map-pin" data-region="nakuru">Nakuru <span class="tooltip">"Breathtaking launch at Lake Nakuru." – Kip, Swahili: "Kazi nzuri sana!"</span></div>
+          <div class="map-pin" data-region="kisumu">Kisumu <span class="tooltip">"Lake-side gala was magical." – Odhiambo</span></div>
+          <div class="map-pin" data-region="mombasa">Mombasa <span class="tooltip">"Coastal vibes, perfect execution." – Fatma</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENTS (unchanged) -->
+    <section id="clients">
+      <div class="container text-center reveal">
+        <span class="section-label">Trusted By</span>
+        <h2 class="section-title">Brands We've Worked With</h2>
+        <p class="section-sub">From nimble startups to established SMEs — VAMVI has delivered across the board.</p>
+      </div>
+      <div class="clients-row container reveal">
+        <span class="client-pill">TechStart Africa</span> <span class="client-pill">BoldBrew Co.</span> <span class="client-pill">Pulse Media</span> <span class="client-pill">Horizon Ventures</span> <span class="client-pill">Nova Retail</span> <span class="client-pill">Spark Creative</span> <span class="client-pill">Apex Finance</span> <span class="client-pill">Urban Roots</span>
+      </div>
+    </section>
+
+    <!-- PRICING (unchanged) -->
+    <section id="pricing">
+      <div class="container text-center reveal">
+        <span class="section-label">Pricing</span>
+        <h2 class="section-title">Honest Packages for Real Businesses</h2>
+        <p class="section-sub">Flexible tiers built around what SMEs and startups actually need. No surprise fees.</p>
+      </div>
+      <div class="pricing-grid container">
+        <div class="pricing-card reveal"> <div class="pricing-tier">Starter</div> <div class="pricing-price"><sup>$</sup>499<span>/event</span></div> <div class="pricing-desc">Perfect for small brand activations and intimate events up to 100 guests.</div> <ul class="pricing-features"> <li>Event concept & planning</li> <li>Vendor coordination</li> <li>Day-of management</li> <li>Basic photography</li> <li>Post-event report</li> </ul> <a href="#contact" class="btn-ghost" style="display:block;text-align:center;padding:.85rem;">Get Started</a> </div>
+        <div class="pricing-card featured reveal"> <div class="pricing-badge">Most Popular</div> <div class="pricing-tier">Growth</div> <div class="pricing-price"><sup>$</sup>1,299<span>/event</span></div> <div class="pricing-desc">Ideal for growing brands — events up to 300 guests with full marketing support.</div> <ul class="pricing-features"> <li>Everything in Starter</li> <li>Entertainment booking</li> <li>Social media coverage</li> <li>Full photo + video</li> <li>Brand activation design</li> <li>Post-event analytics</li> </ul> <a href="#contact" class="btn-primary" style="display:block;text-align:center;padding:.85rem;">Get Started</a> </div>
+        <div class="pricing-card reveal"> <div class="pricing-tier">Enterprise</div> <div class="pricing-price">Custom</div> <div class="pricing-desc">Large-scale events, campaigns, and ongoing retainer partnerships. Let's talk.</div> <ul class="pricing-features"> <li>Everything in Growth</li> <li>Full marketing campaigns</li> <li>Dedicated account manager</li> <li>Monthly retainer option</li> <li>Priority booking</li> <li>Strategy workshops</li> </ul> <a href="#contact" class="btn-ghost" style="display:block;text-align:center;padding:.85rem;">Contact Us</a> </div>
+      </div>
+    </section>
+
+    <!-- AI-POWERED BRAND HEALTH CHECKER (new) -->
+    <section id="health-checker" class="health-section">
+      <div class="container">
+        <span class="section-label reveal">AI Brand Health</span>
+        <h2 class="section-title reveal">Free Brand Health Check</h2>
+        <p class="section-sub reveal">Drop your social media handle or website, and our mock‑AI will give instant improvement tips.</p>
+        <form id="healthForm" class="health-form reveal">
+          <div class="form-group">
+            <label for="socialUrl">Instagram / Website URL</label>
+            <input type="url" id="socialUrl" placeholder="e.g., @yourbrand or https://..." required>
+          </div>
+          <button type="submit" class="form-submit">Analyze Now</button>
+        </form>
+        <div id="healthResult" class="health-result" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT (original + scheduling mock) -->
+    <section id="contact">
+      <div class="contact-wrap container">
+        <div class="contact-info reveal">
+          <span class="section-label">Get In Touch</span>
+          <h3>Ready to Create Something Remarkable?</h3>
+          <p>Tell us about your next event or campaign. We'll get back to you within 24 hours with ideas and a tailored proposal.</p>
+          <div class="contact-details">
+            <div class="contact-item"><span class="contact-icon">📍</span> <span>Nairobi, Kenya</span></div>
+            <div class="contact-item"><span class="contact-icon">📞</span> <span>+254 700 000 000</span></div>
+            <div class="contact-item"><span class="contact-icon">✉️</span> <span>hello@vamvi.co.ke</span></div>
+            <div class="contact-item"><span class="contact-icon">⏰</span> <span>Mon – Sat, 8am – 6pm EAT</span></div>
+          </div>
+          <!-- Mock scheduling CTA -->
+          <button id="scheduleMockBtn" class="btn-ghost schedule-mock">📅 Book a Discovery Call (mock)</button>
+        </div>
+        <div class="contact-form reveal">
+          <div class="form-row">
+            <div class="form-group"><label for="firstName">First Name</label><input type="text" id="firstName" placeholder="Jane"></div>
+            <div class="form-group"><label for="lastName">Last Name</label><input type="text" id="lastName" placeholder="Doe"></div>
+          </div>
+          <div class="form-group"><label for="email">Email</label><input type="email" id="email" placeholder="jane@company.com"></div>
+          <div class="form-group"><label for="company">Company / Brand</label><input type="text" id="company" placeholder="Your company name"></div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service">
+              <option value="">Select a service...</option>
+              <option>Event Planning & Management</option>
+              <option>Brand Activation</option>
+              <option>Entertainment Booking</option>
+              <option>Digital Marketing</option>
+              <option>Content Production</option>
+              <option>Creative Strategy</option>
+              <option>Full Package</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="message">Tell Us About Your Project</label><textarea id="message" rows="4" placeholder="Brief description..."></textarea></div>
+          <button class="form-submit" id="contactSubmitBtn">Send Enquiry ✦</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-grid container">
+      <div class="footer-brand">
+        <img src="assets/images/logo.png" alt="VAMVI" width="120" height="40">
+        <p>VAMVI Entertainment Agency crafts unforgettable events, campaigns, and experiences for SMEs and startups ready to stand out.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Twitter" class="social-btn" title="Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 10 0 10-5.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path></svg></a>
+          <a href="#" aria-label="LinkedIn" class="social-btn" title="LinkedIn"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg></a>
+          <a href="#" aria-label="Instagram" class="social-btn" title="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path><circle cx="17.5" cy="6.5" r="1.5"></circle></svg></a>
+          <a href="#" aria-label="YouTube" class="social-btn" title="YouTube"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.54c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Event Management</a></li>
+          <li><a href="#services">Brand Activations</a></li>
+          <li><a href="#services">Entertainment</a></li>
+          <li><a href="#services">Digital Marketing</a></li>
+          <li><a href="#services">Content Production</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#why">About VAMVI</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>For SMEs</h5>
+        <ul>
+          <li><a href="#pricing">Starter Package</a></li>
+          <li><a href="#pricing">Growth Package</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#contact">Free Consultation</a></li>
+          <li><a href="#">Blog & Resources</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2025 VAMVI Entertainment Agency. All rights reserved.</p>
+      <p class="legal-links"><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></p>
+    </div>
+  </footer>
+
+  <!-- FLOATING CHATBOT (AI mock) -->
+  <div class="chatbot" id="chatbot">
+    <button class="chat-toggle" id="chatToggleBtn" aria-label="Toggle chat"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></button>
+    <div class="chat-window" id="chatWindow" aria-hidden="true">
+      <div class="chat-header">VAMVI Assistant <button id="chatCloseBtn">✕</button></div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="message bot">Hi! I'm your AI guide. Ask me about services or events!</div>
+      </div>
+      <div class="chat-input-area">
+        <input type="text" id="chatInput" placeholder="Type a message...">
+        <button id="chatSendBtn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
